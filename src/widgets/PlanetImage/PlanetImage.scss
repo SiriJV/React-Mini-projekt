@@ -1,0 +1,24 @@
+.PlanetImage {
+    width: auto;
+    height: fit-content;
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px black;
+
+    h2 {
+        font-family: monospace;
+        color: lightcyan;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}
