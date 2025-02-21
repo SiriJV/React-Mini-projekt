@@ -1,0 +1,79 @@
+.CreateNewPlanet {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: blue;
+    width: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    border-radius: 5px;
+
+    label {
+        color: lightcyan;
+        font-family: monospace;
+        width: 100%;
+        margin-top: 10px;
+
+        input {
+            max-width: 100%;
+            border: none;
+            background-color: lightcyan;
+            border-radius: 3px;
+            padding: 5px;
+            font-family: monospace;
+            margin-top: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        input:focus {
+            outline: 2px solid darkblue;
+        }
+
+        input:hover, select:hover {
+            background-color: lightblue;
+        }
+
+        select {
+            width: 100%;
+            border: none;
+            background-color: lightcyan;
+            border-radius: 3px;
+            padding: 5px;
+            font-family: monospace;
+            margin-top: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        select:focus {
+            outline: 2px solid darkblue;
+        }
+
+        option {
+            background-color: lightcyan;
+        }
+
+        option:hover {
+            background-color: red;
+        }
+    }
+
+    .CreatePlanetButton {
+        background-color: darkblue;
+        color: lightcyan;
+        font-family: monospace;
+        border: none;
+        padding: 3px 10px;
+        border-radius: 3px;
+        width: fit-content;
+        transition: background-color 0.2s ease;
+    }
+
+    .CreatePlanetButton:hover {
+        background-color: indigo;
+    }
+}

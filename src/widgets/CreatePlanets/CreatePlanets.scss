@@ -1,0 +1,33 @@
+.CreatePlanets {
+    background-color: blue;
+    width: auto;
+    height: fit-content;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    border-radius: 5px;
+
+    h2 {
+        color: lightcyan;
+        font-family: monospace;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .AddNewPlanetButton {
+        background-color: darkblue;
+        color: lightcyan;
+        font-family: monospace;
+        border: none;
+        padding: 3px 10px;
+        border-radius: 3px;
+        width: fit-content;
+        transition: background-color 0.2s ease;
+        font-size: 20px;
+    }
+
+    button:hover {
+        background-color: indigo;
+    }
+}
