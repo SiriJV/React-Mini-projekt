@@ -1,0 +1,86 @@
+.CreateAlien {
+  background-color: darkblue;
+  background-color: blue;
+  min-width: 200px;
+  max-width: 200px;
+  height: fit-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 4px 4px black;
+
+  h2 {
+    font-family: monospace;
+    color: lightcyan;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  label {
+    color: lightcyan;
+    font-family: monospace;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  input {
+    max-width: 100%;
+    border: none;
+    background-color: lightcyan;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: monospace;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  input:focus {
+    outline: 2px solid darkblue;
+  }
+
+  input:hover,
+  select:hover {
+    background-color: lightblue;
+  }
+
+  ul {
+    list-style: none;
+    font-family: monospace;
+    color: lightcyan;
+    margin-bottom: 0;
+    padding: 0;
+    columns: 2;
+  }
+
+  li {
+    padding-top: 10px;
+  }
+
+  button {
+    background-color: darkblue;
+    color: lightcyan;
+    font-family: monospace;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: fit-content;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+  }
+
+  button:hover {
+    background-color: indigo;
+  }
+}
