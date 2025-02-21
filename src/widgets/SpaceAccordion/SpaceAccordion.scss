@@ -1,0 +1,22 @@
+.planetSection {
+    background-color: darkblue;
+    background-color: blue;
+    min-width: 200px;
+    max-width: 200px;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px black;
+    
+    h2 {
+        font-family: monospace;
+        margin: 0;
+        color: lightcyan;
+        margin-bottom: 10px;
+    }
+}

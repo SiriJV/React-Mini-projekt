@@ -1,3 +1,45 @@
-li {
-    list-style: none;
+.panel {
+    background-color:blue;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    color: lightcyan;
+    transition: background-color 0.3s ease;
+
+    
+    h3 {
+        font-family: monospace;
+        margin: 0;
+    }
+
+    button {
+        width: auto;
+        height: fit-content;
+        border: none;
+        border-radius: 3px;
+        background-color: darkblue;
+        text-decoration: underline;
+        color: lightcyan;
+        font-family: monospace;
+        transition: background-color 0.2s ease;
+    }
+
+    p {
+        font-family: monospace;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.panel:hover button {
+    background-color: indigo;
+}
+
+.panel:hover {
+    background-color: indigo;
 }

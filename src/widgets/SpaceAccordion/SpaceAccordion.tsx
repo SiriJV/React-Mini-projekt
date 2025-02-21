@@ -37,8 +37,8 @@ const SpaceAccordion = () => {
     const [activeStates, setActiveStates] = useState<{ [key: string]: boolean }>({});
 
     return (
-        <>
-            <h2>Planets</h2>
+        <section className="planetSection">
+            <h2>Planet info</h2>
             {planets.map((planet) => (
                 <PlanetList 
                     key={planet.name}
@@ -47,7 +47,7 @@ const SpaceAccordion = () => {
                     setIsActive={(state) => setActiveStates({ ...activeStates, [planet.name]: state })}
                 />
             ))}
-        </>
+        </section>
     );
 }
 
